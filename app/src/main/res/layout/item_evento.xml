@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardElevation="2dp"
+    app:strokeWidth="0dp"
+    app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Large">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvTitulo"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Título del Evento" />
+
+        <TextView
+            android:id="@+id/tvHora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hora" />
+
+        <TextView
+            android:id="@+id/tvLugar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lugar" />
+
+        <TextView
+            android:id="@+id/tvPonente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ponente"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/agendaFragment"
+        android:icon="@drawable/ic_agenda"
+        android:title="Agenda" />
+    <item
+        android:id="@+id/competenciasFragment"
+        android:icon="@drawable/ic_competencia"
+        android:title="Competencias" />
+    <item
+        android:id="@+id/seminariosFragment"
+        android:icon="@drawable/ic_seminario"
+        android:title="Seminarios" />
+    <item
+        android:id="@+id/ubicacionesFragment"
+        android:icon="@drawable/ic_ubicacion"
+        android:title="Ubicaciones" />
+</menu>
